@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 1st International Conference on Community Service</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="search.css">
+</head>
+<body>
+  <header class="header">
+    <div class="title-container">
+      <h1 class="title">The 1st International Conference on Community Service</h1>
+      <img src="logo_iain.png" class="logo">
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="register.html">REGISTER</a></li>
+      <li><a href="search.html">SEARCH</a></li>
+      <li><a href="current.html">CURRENT</a></li>
+      <li><a href="archives.html">ARCHIVES</a></li>
+    </ul>
+  </nav>
+
+        <!-- SEARCH FORM -->
+        <div class="search-container">
+            <div class="box search-box">
+                <header>Search Journal Articles</header>
+                <form action="" method="get">
+                    <div class="field">
+                        <label for="search-query">Search</label>
+                        <input type="text" name="query" id="search-query" placeholder="Enter keywords..." required>
+                    </div>
+                    <div class="field">
+                        <label for="search-category">Category</label>
+                        <select name="category" id="search-category">
+                            <option value="all">All Categories</option>
+                            <option value="science">Science</option>
+                            <option value="technology">Technology</option>
+                            <option value="engineering">Engineering</option>
+                            <option value="mathematics">Mathematics</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="search-date">Date Range</label>
+                        <input type="date" name="start-date" id="search-date" placeholder="Start Date">
+                        <input type="date" name="end-date" id="search-date" placeholder="End Date">
+                    </div>
+                    <div class="field">
+                        <input type="submit" class="btn" value="Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- SEARCH FORM END -->
+
+        <!-- SEARCH RESULTS -->
+        <div class="results-container">
+            <div class="box results-box">
+                <header>Search Results</header>
+                <div class="results">
+                    <!-- Example result item -->
+                    <article class="result-item">
+                        <h2><a href="article1.html">Article Title 1</a></h2>
+                        <p>Author(s): John Doe, Jane Smith</p>
+                        <p>Abstract: This is a brief description of the article. It provides a summary of the main points covered in the research.</p>
+                        <a href="article1.html" class="btn">Read More</a>
+                    </article>
+                    <!-- More result items -->
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH RESULTS END -->
+
+        <!-- FOOTER -->
+        <footer class="container-ft">
+            <h1 class="h1-ft">Lembaga Penelitian dan Pengabdian kepada Masyarakat</h1>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <script src="data.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The 1st International Conference on Community Service discusses global best practices in community service to support Sustainable Development Goals.">
+    <meta name="keywords"
+        content="conference, community service, sustainable development, keynote speakers, steering committee, IAIN Palangka Raya">
+    <title>The 1st International Conference on Community Service</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add this to your CSS file or within a <style> tag */
+        /* General styles for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header, .navbar, .content-wrapper, .footer {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .title {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .navbar-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .navbar-list li {
+            margin: 5px;
+        }
+
+        .navbar-list a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 200px;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .template-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            flex: 3;
+            min-width: 300px;
+        }
+
+        .text-content img, .image-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .pagination ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 5px;
+        }
+
+        .pagination li {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        .pagination .btn1, .pagination .btn2 {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .title {
+                font-size: 1.2em;
+            }
+
+            .navbar-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .content {
+                width: 100%;
+            }
+
+            .pagination ul {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1em;
+            }
+
+            .navbar-list a {
+                padding: 5px;
+            }
+
+            .pagination li {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="title-container">
+            <h1 class="title">The 1st International Conference on Community Service</h1>
+            <img src="logo_iain.png" alt="IAIN Logo" class="logo">
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+            <li><a href="current.html">CURRENT</a></li>
+            <li><a href="archives.html">ARCHIVES</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="online_submissions.html">Online Submission</a></li>
+                <li><a href="editorial_team.html">Editorial Team</a></li>
+                <li><a href="reviewer.html">Reviewer</a></li>
+                <li><a href="editorial_policies.html">Editorial Policies</a></li>
+                <li><a href="author_guidelines.html">Author Guidelines</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="template">
+                <p><a href="http://localhost/web_proceeding/dokumen/download.php"><strong>TEMPLATE</strong></a></p>
+                <a href="http://localhost/web_proceeding/dokumen/download.php">
+                    <img src="Template.png" alt="Template Image" class="template-img">
+                </a>
+            </div>
+            <div class="template">
+                <p><strong>RECOMMENDED TOOLS</strong></p>
+                <a href="https://www.zotero.org/download/">
+                    <img src="Zotero-logo.png" alt="Zotero Logo" class="template-img">
+                </a>
+                <a href="https://www.mendeley.com/download-reference-manager/windows">
+                    <img src="Mendeley_Logo_Vertical.png" alt="Mendeley Logo" class="template-img">
+                </a>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section class="text-content">
+                <h2>Conference Proceeding on Community Service</h2>
+                <hr>
+                <p>
+                    The 1st International Conference on Community Service aims to bring together academics, researchers,
+                    practitioners, and students from around the world. The conference serves as a platform to discuss
+                    and share
+                    best practices regarding the role of community service in fulfilling the Tri Dharma of Higher
+                    Education—Teaching, Research, and Community Service. It also focuses on achieving the Sustainable
+                    Development
+                    Goals (SDGs) in the digital age.
+                </p>
+                <h3>Keynote Speakers:</h3>
+                <ul>
+                    <li>Dr. Sonny Zulhuda (Malaysia)</li>
+                    <li>Bambang Irfani, Ph.D (Indonesia)</li>
+                    <li>Dr. Mohamad Zain Musa (Cambodia)</li>
+                    <li>Encik Ahmad Mujaheed Bin Mohamed Kamil (Malaysia)</li>
+                    <li>Luqman Baehaqi, Ph.D (Indonesia)</li>
+                    <li>Dr. Subair PM (India)</li>
+                    <li>Tawfeek Syarif Mansur, B.Ed (Thailand)</li>
+                </ul>
+                <h3>Steering Committee:</h3>
+                <p>Dr. Nurul Wahdah, MPd. Dr. Ahmadi, M.S.I Luqman Baehagi, S.S., M.Pd., Ph.D.</p>
+                <h3>Committee:</h3>
+                <p>Achda Humairah Putri, Rahmah Alia, Muhammad Ryamizard Al Ghifari, Seviyeni, Rahmad Fahreza Setiawan,
+                    Ahmad
+                    Zidan, Fadhila Zahra Putri, Miya Nanda Saputri</p>
+                <p>
+                    Proceeding Conference the 1st International Conference on Community Service is published by IAIN
+                    Palangka
+                    Raya, Indonesia.
+                </p>
+                <h3>Contact Information:</h3>
+                <p>Address: Kompleks Islamic Centre, Jl. G. Obos, Menteng, Kec. Jekan Raya, Kota Palangka Raya,
+                    Kalimantan
+                    Tengah 73112</p>
+                <p>Phone: +62 85960489097 (Ghifari), +62 85359758696 (Rahmah)</p>
+            </section>
+
+            <section class="image-content">
+                <img src="The Art of Modern Interior Elegance.png" alt="Conference Image" class="template-img">
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 The 1st International Conference on Community Service | IAIN Palangka Raya</p>
+    </footer>
+</body>
+
+</html>

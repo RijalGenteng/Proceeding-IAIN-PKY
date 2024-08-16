@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 1st International Conference on Community Service</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <header class="header">
+    <div class="title-container">
+      <h1 class="title">The 1st International Conference on Community Service</h1>
+      <img src="logo_iain.png" class="logo">
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="register.html">REGISTER</a></li>
+      <li><a href="search.html">SEARCH</a></li>
+      <li><a href="current.html">CURRENT</a></li>
+      <li><a href="archives.html">ARCHIVES</a></li>
+    </ul>
+  </nav>
+
+        <!-- REGISTRATION FORM -->
+        <form class="register-form" action="register_process.php" method="POST">
+          <div class="field input">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" required>
+          </div>
+          <div class="field input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" autocomplete="off" required>
+          </div>
+          <div class="field input">
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" autocomplete="off" required>
+          </div>
+          <div class="field input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" autocomplete="off" required>
+          </div>
+          <div class="field">
+              <input type="submit" class="btn" name="submit" value="Register" autocomplete="off" required>
+          </div>
+          <div class="links">
+              Already a member? <a href="login.html">Sign In</a>
+          </div>
+      </form>      
+        <!-- REGISTRATION FORM END -->
+
+        <!-- FOOTER -->
+        <footer class="container-ft">
+            <h1 class="h1-ft">Lembaga Penelitian dan Pengabdian kepada Masyarakat</h1>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <script src="data.js"></script>
+</body>
+</html>

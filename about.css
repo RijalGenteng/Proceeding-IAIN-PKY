@@ -1,0 +1,95 @@
+/* about.css */
+
+/* Applying the same styles as the main style.css */
+@import url('style.css');
+
+/* Additional styles specific to about.html */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 60px; /* Make space for footer */
+}
+
+.container-content {
+    width: 75%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    color: #000; /* Set text color to black */
+}
+
+.container-content h2, .container-content h3, .container-content p, .container-content a {
+    color: #004080; /* Ensure headings, paragraphs, and links are black */
+}
+
+.container-content a {
+    color: #000; /* Ensure links are black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.container-content a:hover {
+    text-decoration: underline; /* Optional: underline on hover for better visibility */
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    color: #004080;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.template {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.template-img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.container-ft {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+.h1-ft {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}

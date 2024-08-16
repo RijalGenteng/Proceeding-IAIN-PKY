@@ -1,0 +1,146 @@
+/* login.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Using the same styles as the main style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.title-c {
+    text-align: center;
+    margin-top: 20px;
+    color: #004080;
+}
+
+.t-h1 {
+    color: #004080;
+}
+
+.logo_iain {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Navigation Bar */
+.navbar-container {
+    background-color: #333;
+}
+
+.ul-navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.li-navbar {
+    margin: 0 10px;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 20px;
+    display: block;
+    transition: background 0.3s ease-in-out;
+}
+
+.a-navbar:hover {
+    background-color: #004080;
+    border-radius: 5px;
+}
+
+/* Login Form */
+.login-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-title {
+    margin-bottom: 20px;
+    color: #004080;
+    text-align: center;
+    font-size: 24px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #004080;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+    background-color: #003366;
+    margin-bottom: 100%;
+}
+
+/* Links styling */
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.container-ft {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.h1-ft {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
